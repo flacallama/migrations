@@ -6,8 +6,11 @@ module.exports = {
     client: 'pg',   //change to pg
     connection: {
       // filename: './dev.sqlite3'   we don't need this
-      database: 'migrations'
+      database: 'migrations',
       host: '127.0.0.1'
+    },
+    seeds: {
+      directory: './seeds'
     }
   },
 
